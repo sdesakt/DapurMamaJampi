@@ -1,0 +1,36 @@
+/* Navbar */
+.navbar-brand {
+  font-family: viga;
+  font-size: 32;
+  margin-left: 5px;
+}
+
+.jumbotron {
+  background-image: url(jumbotron.jpg);
+  /* bg size cover biar pas gambarnya */
+  background-size: cover;
+  height: 540px;
+}
+
+.display-4 {
+  margin-top: 60px;
+}
+
+.jumbotron .display-4 {
+  margin-top: 150px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .display-4,
+.lead {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+
+/* utility */
+.tombol {
+  /* tombol */
+  text-transform: uppercase;
+  border-radius: 50px;
+}

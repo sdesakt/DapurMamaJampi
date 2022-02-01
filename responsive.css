@@ -1,0 +1,27 @@
+/* Versi Desktop */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  /* ::after untuk munculin border setengah di bawah */
+  .nav-link:hover::after {
+    border-bottom: 3px solid #0017eb;
+    width: 50%;
+    margin: auto;
+    display: block;
+    content: "";
+    margin-bottom: -3px;
+  }
+
+  .jumbotron {
+    margin-top: -110px;
+  }
+}
